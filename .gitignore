@@ -1,0 +1,14 @@
+# Environnement virtuel
+env/
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Données locales ou sensibles
+*.csv
+*.pkl
+
+# Autres fichiers inutiles
+.DS_Store

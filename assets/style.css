@@ -1,0 +1,35 @@
+/* Masquer le menu Streamlit */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* Police et couleurs générales */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9fb;
+    color: #333333;
+}
+
+/* Personnalisation des boutons */
+button[kind="primary"] {
+    background-color: #6C63FF !important;
+    color: white !important;
+    border-radius: 8px !important;
+    padding: 0.5em 1em !important;
+    border: none !important;
+    transition: background-color 0.3s ease;
+}
+
+button[kind="primary"]:hover {
+    background-color: #5147d1 !important;
+}
+
+/* Titres */
+h1, h2, h3 {
+    color: #6C63FF;
+}
+
+/* Conteneurs */
+.stApp {
+    padding: 2rem;
+}
